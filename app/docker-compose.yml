@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  app:
+    image: python:${PYTHON_VERSION}
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: bash -c "pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt && python app.py"

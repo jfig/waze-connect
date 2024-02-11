@@ -1,0 +1,108 @@
+{
+  "alerts": [
+    {
+      "country": "PO",
+      "reportRating": 0,
+      "reportByMunicipalityUser": "false",
+      "confidence": 0,
+      "reliability": 5,
+      "type": "HAZARD",
+      "uuid": "c42e5e4b-45a2-424a-8794-ca405840cfc2",
+      "roadType": 3,
+      "magvar": 52,
+      "subtype": "HAZARD_ON_ROAD_CONSTRUCTION",
+      "street": "IC5",
+      "location": { "x": -7.232501, "y": 41.265211 },
+      "pubMillis": 1707229413000
+    },
+    {
+      "country": "PO",
+      "reportRating": 4,
+      "reportByMunicipalityUser": "false",
+      "confidence": 1,
+      "reliability": 7,
+      "type": "HAZARD",
+      "uuid": "a59b93a5-0f16-4d62-a5db-9fe84e2b8b7d",
+      "roadType": 3,
+      "magvar": 78,
+      "subtype": "HAZARD_ON_ROAD_CONSTRUCTION",
+      "street": "IC5",
+      "location": { "x": -7.482143, "y": 41.353979 },
+      "pubMillis": 1707231707000
+    },
+    {
+      "country": "PO",
+      "reportRating": 3,
+      "reportByMunicipalityUser": "false",
+      "confidence": 0,
+      "reliability": 5,
+      "type": "HAZARD",
+      "uuid": "698079be-8839-481d-b95b-ef006eb4d078",
+      "roadType": 3,
+      "magvar": 305,
+      "subtype": "HAZARD_ON_SHOULDER",
+      "street": "A25",
+      "location": { "x": -7.31302, "y": 40.64222 },
+      "pubMillis": 1707232309000
+    },
+    {
+      "country": "PO",
+      "reportRating": 2,
+      "reportByMunicipalityUser": "false",
+      "confidence": 0,
+      "reliability": 6,
+      "type": "HAZARD",
+      "uuid": "bff805c5-934f-4890-b4c3-173ca39fa906",
+      "roadType": 3,
+      "magvar": 260,
+      "subtype": "HAZARD_ON_SHOULDER_CAR_STOPPED",
+      "street": "IC5",
+      "location": { "x": -7.117806, "y": 41.317618 },
+      "pubMillis": 1707231482000
+    }
+  ],
+  "endTimeMillis": 1707232200000,
+  "startTimeMillis": 1707232140000,
+  "startTime": "2024-02-06 15:09:00:000",
+  "endTime": "2024-02-06 15:10:00:000",
+  "jams": [
+    {
+      "country": "PO",
+      "city": "Tamanhos",
+      "level": 4,
+      "line": [
+        { "x": -7.332279, "y": 40.757113 },
+        { "x": -7.332331, "y": 40.756839 },
+        { "x": -7.332354, "y": 40.756635 },
+        { "x": -7.332338, "y": 40.756477 },
+        { "x": -7.332199, "y": 40.756005 },
+        { "x": -7.332199, "y": 40.755863 },
+        { "x": -7.332215, "y": 40.755734 },
+        { "x": -7.33235, "y": 40.755329 },
+        { "x": -7.332367, "y": 40.755125 },
+        { "x": -7.33234, "y": 40.755031 },
+        { "x": -7.33225, "y": 40.754893 }
+      ],
+      "speedKMH": 5.48,
+      "length": 251,
+      "turnType": "NONE",
+      "type": "NONE",
+      "uuid": 244047308,
+      "endNode": "Tamanhos",
+      "speed": 1.5222222222222221,
+      "segments": [
+        {
+          "fromNode": 150367467,
+          "ID": 206267437,
+          "toNode": 236555668,
+          "isForward": false
+        }
+      ],
+      "roadType": 6,
+      "delay": 147,
+      "startNode": "Tamanhos",
+      "street": "N226",
+      "pubMillis": 1707232307244
+    }
+  ]
+}
