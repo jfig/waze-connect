@@ -66,7 +66,7 @@ python app.py
 
 * MQTT send new alerts, status changes, and termination via MQTT, will require keeping track of active alerts.
 * Alert filtering by type and ranking, only send alert above certain ranking, definable by alert type
-* Suppers Alerts if another similar of same type is within a certain distance, enabled and distance configurable by type
+* Suppress Alerts if another similar of same type is within a certain distance, enabled and distance configurable by type
 * New Geo-Fence, Waze for Cities has a limit of points defining each polygon, this leads to the inclusion of lots of other roads near the operation a filter by Street Name may be used to filter out other Street and Geo-JSON defined Geo-fences in intersections to 
 
 ## Contributing
